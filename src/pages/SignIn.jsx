@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { toast } from "react-toastify";
+import OAuth from "../components/OAuth";
 import { Link, useNavigate } from "react-router-dom";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 // import OAuth from "../components/OAuth";
@@ -91,7 +92,7 @@ function SignIn() {
           </div>
         </form>
 
-        {/* <OAuth /> */}
+        <OAuth />
 
         <Link to="/sign-up" className="registerLink">
           Sign Up Instead

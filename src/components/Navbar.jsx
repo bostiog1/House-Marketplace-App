@@ -19,7 +19,7 @@ function Navbar() {
         <ul className="navbarListItems">
           <li className="navbarListItem" onClick={() => navigate("/")}>
             <ExploreIcon
-              fill={pathMatchRoute("/offers") ? "#2c2c2c" : "#8f8f8f"}
+              fill={pathMatchRoute("/") ? "#2c2c2c" : "#8f8f8f"}
               width="36px"
               height="36px"
             />
